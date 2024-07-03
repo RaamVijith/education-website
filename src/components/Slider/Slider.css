@@ -1,0 +1,65 @@
+/* Slider.css */
+.carousel .slide {
+    position: relative;
+  }
+  
+  .carousel .slide img {
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+    text-align: left;
+    max-width: 500px;
+  }
+  
+  .overlay h2 {
+    font-size: 18px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .overlay h1 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .overlay p {
+    font-size: 18px;
+  }
+  
+  .overlay a {
+    font-size: 18px;
+    color: orange;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  @media (max-width: 768px) {
+    .overlay {
+      left: 5%;
+      max-width: 90%;
+    }
+  
+    .overlay h2 {
+      font-size: 14px;
+    }
+  
+    .overlay h1 {
+      font-size: 24px;
+    }
+  
+    .overlay p, .overlay a {
+      font-size: 14px;
+    }
+  }
+  
